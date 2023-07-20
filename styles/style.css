@@ -1,0 +1,50 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: #1F8A70;
+}
+
+header {
+    background-color: #1F8A70;
+}
+
+h1, h2{
+    font-family: 'Belanosima', sans-serif;
+    color: #FC7300;
+}
+
+h1 {
+    background-image: url(/img/aula-encabezado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 400px;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    border-top: solid 3px;
+    border-top-color: #FC7300;
+    background-color: #1F8A70;
+}
+
+.copyright {
+    color: #181823;
+    text-decoration: none;
+}
+
+#quienes, #por-que, #propuesta, #noticias, #contacto {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: solid 3px;
+    border-top-color: #FC7300;
+}
+
+#header {
+    background-color: #FC7300;
+}
