@@ -21,6 +21,10 @@ p {
     text-align: justify;
 }
 
+section {
+    margin-bottom: 2.5vh;
+}
+
 .copyright {
     color: #181823;
     text-decoration: none;
@@ -72,17 +76,13 @@ p {
     background-color: #181823 !important;
 }
 
-/* .check {
-    background-color: #181823 !important;
-} */
-
-input:checked {
+/* input:checked {
     background-color: #181823 !important;
 }
 
 input:not(:checked) {
     background-color: white !important;
-}
+ */
 
 footer {
     border-top: solid 3px;
