@@ -3,13 +3,14 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 <!-- FontAwesome Icons -->
-<script src="https://kit.fontawesome.com/9c9a18582a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- Google Font (Poppins y Belanosima) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Poppins:wght@400&display=swap" rel="stylesheet">
 <!-- CSS propio -->
 <link rel="stylesheet" href="./styles/style.css">
+<link rel="shortcut icon" href="./img/favicon-school.png" type="image/x-icon">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,33 +22,36 @@
     <header class="sticky-top" id="header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="nav-link" href="#">UntrefSchool</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="nav-link" href="#">
+                    <i class="fa-solid fa-school pe-3" style="color: #181823;"></i>
+                </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#quienes">¿Quiénes somos?</a>
-                    <a class="nav-link" href="#por-que">Por qué elegirnos?</a>
-                    <a class="nav-link" href="#propuesta">Propuesta educativa</a>
-                    <a class="nav-link" href="#noticias">Noticias</a>
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                    <a class="nav-link pe-3" href="#quienes">¿Quiénes somos?</a>
+                    <a class="nav-link pe-3" href="#por-que">Por qué elegirnos?</a>
+                    <a class="nav-link pe-3" href="#propuesta">Propuesta educativa</a>
+                    <a class="nav-link pe-3" href="#noticias">Noticias</a>
+                    <a class="nav-link pe-3" href="./contacto.html">Contacto</a>
                 </div>
-              </div>
             </div>
-          </nav>
+        </nav>
     </header>
 
-    <main class="container-fluid mt-3">
-        <h1 class="text-center">UNTREF SCHOOL</h1>
+    <main>
+        <div class="align-content-center">
+            <h1 class="text-end">UNTREF SCHOOL</h1>
+        </div>
         <section id="quienes" class="mt-1 ">
-            <h2 class="text-start">¿QUIÉNES SOMOS?</h2>
+            <h2 class="text-start ps-1">¿QUIÉNES SOMOS?</h2>
             <div class="container">
-                <div class="row align-items-start">
-                    <div class="col">
+                <div class="row">
+                    <div class="col align-self-center">
                         <img src="./img/escuela.jpg" alt="UntrefSchool" id="foto-escuela" class="img-fluid">
                     </div>
-                    <div class="col-9">
+                    <div class="col-9 ps-5">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium autem nesciunt reiciendis, vero maiores facilis omnis magni hic fugit aut. Odit debitis nihil officiis corrupti explicabo suscipit consequatur? Ex quisquam voluptatibus reiciendis nemo hic sit? Inventore amet ipsum officia sed laboriosam minima eum quo. Voluptate, magnam maxime! Voluptatibus ipsum, assumenda minus nihil veritatis animi consequuntur voluptatem dicta, nesciunt consequatur sed?
                         </p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum aspernatur unde in vel quam ab numquam dicta expedita vitae!</p>
@@ -58,17 +62,17 @@
         </section>
         
         <section id="por-que" class="mt-1">
-            <h2 class="text-start">¿POR QUÉ ELEGIRNOS?</h2>
+            <h2 class="text-start ps-1">¿POR QUÉ ELEGIRNOS?</h2>
             <div class="container text-center">
-                <div class="row align-items-start">
-                    <div class="col-9">
+                <div class="row">
+                    <div class="col-9 pe-5">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium autem nesciunt reiciendis, vero maiores facilis omnis magni hic fugit aut. Odit debitis nihil officiis corrupti explicabo suscipit consequatur? Ex quisquam voluptatibus reiciendis nemo hic sit? Inventore amet ipsum officia sed laboriosam minima eum quo. Voluptate, magnam maxime! Voluptatibus ipsum, assumenda minus nihil veritatis animi consequuntur voluptatem dicta, nesciunt consequatur sed?
                         </p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum aspernatur unde in vel quam ab numquam dicta expedita vitae!</p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eveniet debitis odio nihil vero perferendis rerum officia ab labore atque, ad, dolores quae voluptas, sequi blanditiis id maiores ratione. Ipsa optio, porro atque eaque odit non laboriosam, neque omnis officia distinctio deleniti harum ipsum a sunt delectus fuga quo facilis aliquid perferendis corporis beatae obcaecati deserunt! Nobis, nemo? Iure commodi quam ipsum impedit maxime distinctio similique nulla sed, itaque delectus, totam animi suscipit quis corporis iusto officia aperiam consequatur reprehenderit. Quo nobis voluptas illum voluptatem omnis neque optio error asperiores beatae, tempora ducimus sed, repellendus nihil quibusdam adipisci qui assumenda animi? Ut libero explicabo fugiat in sed enim magnam ratione odit ad dolore dolorem, minus architecto nobis eos nesciunt officiis repellat corporis quidem voluptate aspernatur qui quo. Iure quis unde a obcaecati, quo veritatis? Quam, quos consequatur harum dicta quibusdam quae itaque culpa pariatur sunt, sequi velit rem? Magni, magnam.</p>
                     </div>
-                    <div class="col">
-                        <img src="./img/por-que.jpg" alt="Por qué nosotros" id="foto-por-que" class="img-fluid">
+                    <div class="col justify-content-evenly">
+                        <img src="./img/por-que.jpg" alt="Por qué nosotros" id="foto-por-que" class="img-fluid align-self-center">
                     </div>
                 </div>
             </div>
@@ -76,9 +80,11 @@
         
         <section id="propuesta" class="mt-1">
             <h2 class="text-center">PROPUESTA EDUCATIVA</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dolor dolorum ex, cumque voluptas deleniti vel optio repellendus, corrupti excepturi, repudiandae vero fugiat. Voluptatem ipsum quidem, reprehenderit, officiis ratione error dolorum at fuga molestias optio veritatis iusto neque vitae illum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, accusantium saepe! Expedita tempora dicta fuga nulla, porro tenetur nesciunt voluptatem repellat error pariatur vel voluptates natus deserunt magnam? Placeat, repellendus?
-            Atque illo earum dignissimos nisi, eligendi aspernatur tenetur neque harum autem dolorum incidunt quis dicta aperiam nam nostrum ipsa laborum enim totam amet, sint vitae sunt consequuntur, vel obcaecati. Ea?</p>
+            <div class="container col-5">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dolor dolorum ex, cumque voluptas deleniti vel optio repellendus, corrupti excepturi, repudiandae vero fugiat. Voluptatem ipsum quidem, reprehenderit, officiis ratione error dolorum at fuga molestias optio veritatis iusto neque vitae illum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, accusantium saepe! Expedita tempora dicta fuga nulla, porro tenetur nesciunt voluptatem repellat error pariatur vel voluptates natus deserunt magnam? Placeat, repellendus?
+                    Atque illo earum dignissimos nisi, eligendi aspernatur tenetur neque harum autem dolorum incidunt quis dicta aperiam nam nostrum ipsa laborum enim totam amet, sint vitae sunt consequuntur, vel obcaecati. Ea?</p>
+            </div>
         </section>
         
         <section id="noticias" class="mt-1">
@@ -102,10 +108,10 @@
     </main>
     
     <footer class="text-center mt-3">
-        <div class="text-center text-dark p-3">
-            <div class="container pt-4">
-                <section class="mb-4">
-                    <!-- Facebook -->
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col align-self-center">
+                    <p class="text-center">Redes sociales</p>
                     <a
                     class="btn btn-link btn-floating btn-lg text-dark m-1"
                     href="#!"
@@ -113,8 +119,6 @@
                     data-mdb-ripple-color="dark"
                     ><i class="fab fa-facebook-f" style="color: #181823;"></i
                     ></a>
-            
-                    <!-- Twitter -->
                     <a
                     class="btn btn-link btn-floating btn-lg text-dark m-1"
                     href="#!"
@@ -122,8 +126,6 @@
                     data-mdb-ripple-color="dark"
                     ><i class="fab fa-twitter" style="color: #181823;"></i
                     ></a>
-                
-                    <!-- Instagram -->
                     <a
                     class="btn btn-link btn-floating btn-lg text-dark m-1"
                     href="#!"
@@ -131,13 +133,20 @@
                     data-mdb-ripple-color="dark"
                     ><i class="fab fa-instagram" style="color: #181823;"></i
                     ></a>
-                </section>
+                </div>
+                <div class="col">
+                    <p class="text-center">Instituto</p>
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.965341660302!2d-58.5643367!3d-34.6050379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacb9f8ff113%3A0x22fd08da6711928d!2sUniversidad%20Nacional%20de%20Tres%20de%20Febrero%20(UNTREF)%20-%20Sede%20Caseros%20I!5e0!3m2!1sen!2sar!4v1689907723037!5m2!1sen!2sar" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col align-self-center">
+                    <p class="text-center">Contacto</p>
+                    <p class="text-center">Email: untrefschool@gmail.com</p>
+                    <p class="text-center">Telefono y <i class="fa-brands fa-whatsapp" style="color: #181823;"></i>: 11-222-3333</p>
+                </div>
             </div>
-
-        <!-- Copyright -->
+        </div>
           <a class="copyright" href="#">© 2023 UntrefSchool</a>
         </div>
-        <!-- Copyright -->
     </footer>
 </body>
 </html>

@@ -2,29 +2,86 @@
     font-family: 'Poppins', sans-serif;
 }
 
-nav {
-    background-color: #1F8A70;
-}
-
-header {
-    background-color: #1F8A70;
-}
-
 h1, h2{
     font-family: 'Belanosima', sans-serif;
     color: #FC7300;
 }
 
 h1 {
-    background-image: url(/img/aula-encabezado.jpg);
+    background-image: url(../img/aula-encabezado.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     height: 400px;
+    font-size: 10vh;
+    border-bottom: solid 1.5rem #FC7300;
 }
 
 p {
     text-align: justify;
+}
+
+.copyright {
+    color: #181823;
+    text-decoration: none;
+}
+
+#por-que, #propuesta, #noticias {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: solid 3px;
+    border-top-color: #FC7300;
+}
+
+#contacto {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+#header {
+    background-color: #FC7300;
+}
+
+.navbar {
+    background-color: #1F8A70 !important;
+}
+
+#foto-escuela {
+    border: solid 10px;
+    border-color: #181823;
+    border-radius: 15px;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+
+#foto-por-que {
+    border: solid 10px;
+    border-color: #181823;
+    transform: rotate(5deg);
+    border-radius: 15px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+
+.boton {
+    background-color: #181823 !important;
+}
+
+/* .check {
+    background-color: #181823 !important;
+} */
+
+input:checked {
+    background-color: #181823 !important;
+}
+
+input:not(:checked) {
+    background-color: white !important;
 }
 
 footer {
@@ -33,18 +90,3 @@ footer {
     background-color: #1F8A70;
 }
 
-.copyright {
-    color: #181823;
-    text-decoration: none;
-}
-
-#quienes, #por-que, #propuesta, #noticias, #contacto {
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: solid 3px;
-    border-top-color: #FC7300;
-}
-
-#header {
-    background-color: #FC7300;
-}
